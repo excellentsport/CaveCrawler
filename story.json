@@ -4,7 +4,7 @@
       "lines": [
         "You wake up sprawled on the ground, unsure of your surroundings and how or why you're here.",
         "You rub the dust from your eyes and blink them repeatedly in an attempt to clear your vision.",
-        "As your vision clears, to your surprise, you find yourself in a dark cavern, only barely illuminated by the faint blue glow of some kind of florescent moss on the cave wall."
+        "As your vision clears, to your surprise, you find yourself in a dark cavern, only barely illuminated by the faint blue glow of some kind of flourescent moss on the cave wall."
       ],
       "options": [
         {
@@ -23,7 +23,7 @@
           "option_number": 2,
           "option_text": "Show your frustration at the situation by kicking the small rock in front of you.",
           "result_lines": [
-            "You kick what you thought was a small rock, but it turns out to be larger than you thought.",
+            "You kick the small rock, but unfortunately it is connected to the much larger stone floor beneath the sand and gravel.",
             "You stub your toe."
           ],
           "next_scene": 0,

@@ -6,7 +6,7 @@ import title_screen
 
 
 def slow_type(t):
-    typing_speed = 2000
+    typing_speed = 500
     # wpm
     for l in t:
         sys.stdout.write(l)
@@ -79,9 +79,9 @@ def story_flow():
 
 
 def y_n_validation(input_text):
-    if input_text is 'n':
+    if input_text == 'n':
         return 0
-    if input_text is 'y':
+    if input_text == 'y':
         return 1
     else:
         print('Not a valid option. Please enter either y or n.')

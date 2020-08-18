@@ -20,7 +20,7 @@ As you play, you will be given descriptions of your surroundings, line by line; 
 
 When faced with choices, type the number then hit Return to select your action. Some choices will gove you additional information, some will move the story along.  
 
-You start with 20 health; some choices may change this. Should your health reach zero, you die and must try again.'
+You start with 20 health; some choices may change this. Should your health reach zero, you die and must try again.
 
 Good luck.
 

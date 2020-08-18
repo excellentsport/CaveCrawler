@@ -1,0 +1,99 @@
+{
+  "chapter_1": {
+    "scene_1": {
+      "lines": [
+        "You wake up sprawled on the ground, unsure of your surroundings and how or why you're here.",
+        "You rub the dust from your eyes and blink them repeatedly in an attempt to clear your vision.",
+        "As your vision clears, to your surprise, you find yourself in a dark cavern, only barely illuminated by the faint blue glow of some kind of florescent moss on the cave wall."
+      ],
+      "options": [
+        {
+          "option_number": 1,
+          "option_text": "Look around for any clues as to where you are.",
+          "result_lines": [
+            "You glance around the cave noticing that there is freshly disturbed dirt and sand strewn around you, and an imprint from where you had previously lain.",
+            "Some of the soil looks wet, for unknown reasons.",
+            "You notice that there are two sets of footprints, one booted, which matches what you're wearing.",
+            "The other set of prints looks smaller than the first, almost child-sized; you can follow the prints to a few feet away where the dirt and sand patch transitions to stone."
+          ],
+          "next_scene": 0,
+          "health_change": 0
+        },
+        {
+          "option_number": 2,
+          "option_text": "Show your frustration at the situation by kicking the small rock in front of you.",
+          "result_lines": [
+            "You kick what you thought was a small rock, but it turns out to be larger than you thought.",
+            "You stub your toe."
+          ],
+          "next_scene": 0,
+          "health_change": -1
+        },
+        {
+          "option_number": 3,
+          "option_text": "Follow the general direction of the cave.",
+          "result_lines": [
+            "With nothing else to see or do in this part of the cave, it seems prudent to move on."
+          ],
+          "next_scene": 1,
+          "health_change": 0
+        }
+      ]
+    },
+    "scene_2": {
+      "lines": [
+        "The crunch of sand and dirt under your feet subsides as the soil gives way to stone.",
+        "You walk carefully, cognizant of difficulty of walking in the dim, bluish-tinted light.",
+        "The cave begins to narrow, and the height of the cave decreases, necessitating that you slow your pace considerably.",
+        "At this point, you have to stoop low, even crawling at times.",
+        "You come to a fork.",
+        "To the left, the tunnel appears to grow in size, but gets progressively darker, even less than what little light you currently have. You would be able to stand more upright were you to take this tunnel. ",
+        "To the right, the tunnel gets smaller, but appears slightly brighter due to a yellow moss that mixes in with the fluorescent blue. It looks like you would have to crawl on your hands and knees for this tunnel."
+      ],
+      "options": [
+        {
+          "option_number": 1,
+          "option_text": "Do nothing",
+          "result_lines": [
+            "You sit for an hour, which turns into two, then four.",
+            "You get progressively hungrier."
+          ],
+          "next_scene": 0,
+          "health_change": -1
+        },
+        {
+          "option_number": 2,
+          "option_text": "Head to the left tunnel",
+          "result_lines": [
+            "As you enter the mouth of the darker tunnel, you slow your pace, unsure of your footing in the dark.",
+            "You feel your shoes begin to move small objects on the ground, making a slight crunching sound, as the objects slide past one another.",
+            "Each time you put your weight down, the crunching sound gets louder, crushing whatever it is that’s underfoot.",
+            "You do your best to ignore the sound, and what it might be that you’re walking through in the dark."
+          ],
+          "next_scene": 1,
+          "health_change": 0
+        },
+        {
+          "option_number": 3,
+          "option_text": "Head to the right tunnel",
+          "result_lines": [
+            "You follow the smaller cave, toward the welcoming blue and yellow light.",
+            "The mix of the two mosses casts a green pallor over the increasinngly narrow cave.",
+            "You continue to crawl forward, and over the next few yards, the ceiling gradually lowers.",
+            "Yard by yard, you make forward progress, but the ceiling drops still further.",
+            "Eventually, you the ceiling becomes low enough that you have to slither along your belly.",
+            "The tunnel, still glowing green, slopes downward.",
+            "You continue forward, resolute that this was the correct path, as the ceiling scrapes across your back.",
+            "Eventually, the stone floor and ceiling presses against you, preventing a full breath.",
+            "The downward slope prevents backward movement; maybe this wasn't the best choice.",
+            "At this point, you cannot move forward, nor backward.",
+            "Your only option is to contemplate what a poor choice this was as you gradually die from exposure."
+          ], 
+          "next_scene": 0,
+          "health_change": -20
+        }
+        
+      ]
+    }
+  }
+}

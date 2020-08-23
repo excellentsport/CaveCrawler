@@ -43,7 +43,7 @@
     "scene_2": {
       "lines": [
         "The crunch of sand and dirt under your feet subsides as the soil gives way to stone.",
-        "You walk carefully, cognizant of difficulty of walking in the dim, bluish-tinted light.",
+        "You walk carefully, cognizant of the difficulty of walking in the dim, blue-tinted light.",
         "The cave begins to narrow, and the height of the cave decreases, necessitating that you slow your pace considerably.",
         "At this point, you have to stoop low, even crawling at times.",
         "You come to a fork.",
@@ -88,11 +88,58 @@
             "The downward slope prevents backward movement; maybe this wasn't the best choice.",
             "At this point, you cannot move forward, nor backward.",
             "Your only option is to contemplate what a poor choice this was as you gradually die from exposure."
-          ], 
+          ],
           "next_scene": 0,
           "health_change": -20
         }
-        
+      ]
+    },
+    "scene_3": {
+      "lines": [
+        "After about 100 yards of excruciatingly slow shuffling, the tunnel begins to brighten. ",
+        "It’s finally bright enough for you to see your hands in front of your face.",
+        "After another hundred yards of slightly faster walking, your elation at having some light quickly changes to fear as you begin to hear what sounds like whispers and the scuffling of feet to your starved senses.",
+        "Occasionally you hear a ‘thunk’ that echoes enough times to raise the hair on your neck."
+      ],
+      "options": [
+        {
+          "option_number": 1,
+          "option_text": "Keep walking",
+          "result_lines": [
+            "A healthy dose of fear prompts you to continue onward- you would rather not know what those sound are, or where they are coming from. ",
+            "You continue ahead, and the scuffling sounds lessen, much to your relief."
+          ],
+          "next_scene": 1,
+          "health_change": 0
+        },
+        {
+          "option_number": 2,
+          "option_text": "Yell to try to scare away whatever is causing the sound",
+          "result_lines": [
+            "You yell out at the top of your lungs, and the sound is deafening in this small chamber.",
+            "Your ears ring for a bit. ",
+            "After the ringing subsides, you no longer hear anything but the sound of your breath and your thudding heart and the occasional ‘thunk’ that you still haven’t identified. "
+          ],
+          "next_scene": 0,
+          "health_change": 0
+        },
+        {
+          "option_number": 3,
+          "option_text": "Stop to investigate the sounds you hear",
+          "result_lines": [
+            "You slowly turn in place, scanning with your eyes and trying to pinpoint the source of the sound.",
+            "At first, it seems as though the sound is coming from all directions. ",
+            "Eventually you realize that along the floor are a couple of small holes, about the size of up it fist. ",
+            "You’re positive that the sounds originate here; you slowly creep toward it to get a better look. ",
+            "You squat down to look at the hole, becoming increasingly dire that this is the source of the sounds. ",
+            "The holes are dark, so you peer close. ",
+            "You see a flash of red and yellow flecked eyes before feeling a burning sting on your face. ",
+            "Quickly, you wipe your skin with your sleeve and the pain subsides, but your sleeve starts to smolder.",
+            "You tear the sleeve off, grateful that you didn’t experience anything more than the brief bit of pain from whatever the creature spit at you. "
+          ],
+          "next_scene": 0,
+          "health_change": -3
+        }
       ]
     }
   }

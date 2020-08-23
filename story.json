@@ -59,7 +59,8 @@
             "You get progressively hungrier."
           ],
           "next_scene": 0,
-          "health_change": -1
+          "health_change": -1,
+          "instadeath": 0
         },
         {
           "option_number": 2,
@@ -71,17 +72,18 @@
             "You do your best to ignore the sound, and what it might be that you’re walking through in the dark."
           ],
           "next_scene": 1,
-          "health_change": 0
+          "health_change": 0,
+          "instadeath": 0
         },
         {
           "option_number": 3,
           "option_text": "Head to the right tunnel",
           "result_lines": [
             "You follow the smaller cave, toward the welcoming blue and yellow light.",
-            "The mix of the two mosses casts a green pallor over the increasinngly narrow cave.",
+            "The mix of the two mosses casts a green pallor over the increasingly narrow cave.",
             "You continue to crawl forward, and over the next few yards, the ceiling gradually lowers.",
             "Yard by yard, you make forward progress, but the ceiling drops still further.",
-            "Eventually, you the ceiling becomes low enough that you have to slither along your belly.",
+            "Eventually, the ceiling becomes low enough that you have to slither along your belly.",
             "The tunnel, still glowing green, slopes downward.",
             "You continue forward, resolute that this was the correct path, as the ceiling scrapes across your back.",
             "Eventually, the stone floor and ceiling presses against you, preventing a full breath.",
@@ -90,7 +92,8 @@
             "Your only option is to contemplate what a poor choice this was as you gradually die from exposure."
           ],
           "next_scene": 0,
-          "health_change": -20
+          "health_change": -20,
+          "instadeath": 0
         }
       ]
     },
@@ -110,7 +113,8 @@
             "You continue ahead, and the scuffling sounds lessen, much to your relief."
           ],
           "next_scene": 1,
-          "health_change": 0
+          "health_change": 0,
+          "instadeath": 0
         },
         {
           "option_number": 2,
@@ -121,7 +125,8 @@
             "After the ringing subsides, you no longer hear anything but the sound of your breath and your thudding heart and the occasional ‘thunk’ that you still haven’t identified. "
           ],
           "next_scene": 0,
-          "health_change": 0
+          "health_change": 0,
+          "instadeath": 0
         },
         {
           "option_number": 3,
@@ -138,7 +143,61 @@
             "You tear the sleeve off, grateful that you didn’t experience anything more than the brief bit of pain from whatever the creature spit at you. "
           ],
           "next_scene": 0,
-          "health_change": -3
+          "health_change": -3,
+          "instadeath": 0
+        }
+      ]
+    },
+    "scene_4": {
+      "lines": [
+        "You reach the mouth of a cavern, lit slightly by more blue flourescent moss.",
+        "On one side of the cavern is a small creek, about three feet wide and flowing slowly, it’s origin somewhere off to the side in the distance.",
+        "The creek is beset on either side by small rocks and sand, not unlike that of the first cavern you found yourself in.",
+        "The water flows off to your left to about a stone’s throw away, at which point it immediately drops away.",
+        "To the right, up the creek a short distance, is a small wooden water wheel, spinning slowly with the water’s flow, which spins a series of gears, ultimately causing a wooden beam the size of your arm to raise and periodically drop onto a small raised wooden pedestal.",
+        "Next to wheel is a wooden platform."
+      ],
+      "options": [
+        {
+          "option_number": 1,
+          "option_text": "Investigate the water of the creek",
+          "result_lines": [
+            "You carefully walk up to the creek, then squat down to look closely at the water.",
+            "Your reflection stares back at you; if it were brighter you would see your swollen eyes and dusty face.",
+            "Briefly, you see the flash of something under the water.",
+            "Before you know it, the flash of silver is gone, and all you see is the undulating surface of the water."
+          ],
+          "next_scene": 0,
+          "health_change": 0,
+          "instadeath": 0
+        },
+        {
+          "option_number": 2,
+          "option_text": "Walk to the left to see where the water goes.",
+          "result_lines": [
+            "You take a handful of steps toward the left to see where the water goes.",
+            "As you get closer, you notice a very cold draft coming from ahead of you, and a hollow echo from the water as it drops over the side of what is apparently a cliff.",
+            "You listen closely, trying to determine how far the water might drop, but its too far to make an accurate guess.",
+            "Curious, you creep closer to where you think the edge is.",
+            "Suddenly, your heel slips out from underneath you; you twist in an attempt not to fall over the edge.",
+            "You scramble, raking your hands against the stone floor, catching yourself with only your shins dangling over.",
+            "You're still alive, but did a number on your hands trying to catch yourself."
+          ],
+          "next_scene": 0,
+          "health_change": -4,
+          "instadeath": 0
+        },
+        {
+          "option_number": 3,
+          "option_text": "Check out the water wheel and platform.",
+          "result_lines": [
+              "A large wooden chest sits next to the wooden platform, unlocked.",
+              "You hadn’t noticed before, but a small tin sits atop a metal grate, deep in a hole near the chest, above a fire gives off no smoke.",
+              "'Finally!' you think. 'Maybe there is someone here that might know what the heck is going on!'"
+          ],
+          "next_scene": 1,
+          "health_change": 0,
+          "instadeath": 0
         }
       ]
     }
